@@ -40,4 +40,7 @@ dependencies {
 
     // DefaultHeaders
     implementation("io.ktor:ktor-server-default-headers:$ktorVersion")
+
+    // Status Pages
+    implementation("io.ktor:ktor-server-status-pages:$ktorVersion")
 }
