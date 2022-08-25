@@ -8,7 +8,9 @@ fun main(args: Array<String>): Unit =
 
 @Suppress("unused")
 fun Application.module() {
+    configureKoin()             // this should be first line to avoid compile errors
     configureSerialization()
     configureMonitoring()
     configureRouting()
+    configureDefaultHeader()
 }

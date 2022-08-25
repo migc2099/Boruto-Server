@@ -37,4 +37,7 @@ dependencies {
     implementation("io.insert-koin:koin-ktor:$koinVersion")
     // SLF4J Logger
     implementation("io.insert-koin:koin-logger-slf4j:$koinVersion")
+
+    // DefaultHeaders
+    implementation("io.ktor:ktor-server-default-headers:$ktorVersion")
 }
